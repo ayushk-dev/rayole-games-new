@@ -1,0 +1,145 @@
+/* Rayole Games — main CSS (modular, responsive, animated) */
+
+/* 1) Design Tokens */
+:root {
+  /* Epic-like minimal dark with a single striking blue */
+  --primary: #2ea8ff;         /* Electric blue */
+  --primary-600: #1f8fe0;
+  --accent: #2ea8ff;
+  --bg: #0f1116;              /* Deep neutral dark */
+  --bg-2: #12141b;
+  --surface: #151922;         /* Card surface */
+  --text: #e7eaf0;
+  --text-muted: #a5aab3;
+  --ring: rgba(46, 168, 255, 0.28);
+  --glass: rgba(255, 255, 255, 0.04);
+  --shadow-1: 0 10px 30px var(--ring);
+}
+
+/* 2) Reset / Base */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: 'Outfit', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  background:
+    radial-gradient(1000px 360px at -20% -20%, rgba(46,168,255,.08), transparent 60%),
+    linear-gradient(180deg, #0f1116 0%, #10131a 60%, #0f1218 100%);
+  color: var(--text);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-decoration: none; }
+
+/* 3) Layout Utilities */
+.container { max-width: 1200px; margin-inline: auto; padding-inline: 24px; }
+.stack-2 > * + * { margin-top: .5rem; }
+.stack-3 > * + * { margin-top: .75rem; }
+.stack-4 > * + * { margin-top: 1rem; }
+
+.section { padding: 80px 0; position: relative; }
+.section-title { font-size: 2.2rem; font-weight: 700; }
+.section-sub { color: var(--text-muted); }
+
+/* 4) App Bar */
+.appbar {
+  position: fixed; inset: 0 0 auto 0; height: 64px; z-index: 1000;
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(180deg, rgba(13,17,23,.75), rgba(13,17,23,0));
+  backdrop-filter: blur(10px);
+  transition: box-shadow .25s ease, background .25s ease, transform .25s ease;
+}
+.appbar--scrolled { background: rgba(13,17,23,.8); box-shadow: 0 8px 30px rgba(0,0,0,.25); }
+.appbar__inner { width: 100%; max-width: 1200px; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; }
+.logo { font-size: 1.4rem; font-weight: 800; color: #fff; letter-spacing: .5px; }
+
+.nav { display: flex; gap: 20px; list-style: none; }
+.nav a { color: var(--text); opacity: .9; padding: 6px 10px; border-radius: 8px; transition: color .2s, background .2s, opacity .2s; }
+.nav a:hover { color: var(--primary); background: rgba(255,255,255,.04); }
+.nav a.is-active { color: #0b0e13; background: var(--primary); }
+
+/* Mobile menu */
+.menu-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
+.menu-toggle span { width: 26px; height: 3px; background: var(--text); border-radius: 3px; transition: transform .25s ease, opacity .25s ease; }
+.menu-toggle.is-open span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+.menu-toggle.is-open span:nth-child(2) { opacity: 0; }
+.menu-toggle.is-open span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+
+.mobile-nav { position: absolute; top: 64px; right: 16px; display: none; flex-direction: column; gap: 10px; padding: 16px 18px; border-radius: 14px; background: #fffe; color: #0d1117; box-shadow: 0 24px 80px rgba(0,0,0,.35); }
+.mobile-nav a { color: #0d1117; }
+.mobile-nav.show { display: flex; }
+
+/* 5) Hero */
+.hero { min-height: 100vh; display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: 40px; padding: 120px 0 60px; }
+.hero__title { font-size: clamp(2.2rem, 4vw + .5rem, 3.5rem); line-height: 1.1; }
+.hero__title span { color: var(--primary); }
+.hero__lead { color: #d5deea; max-width: 60ch; }
+.hero__buttons { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 8px; }
+
+.btn { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; border-radius: 12px; padding: 12px 18px; transition: transform .2s ease, box-shadow .2s ease, background .2s ease; will-change: transform; }
+.btn--primary { background: var(--primary); color: #0b0e13; box-shadow: 0 10px 26px var(--ring); }
+.btn--ghost { color: var(--primary); border: 1.5px solid var(--primary); background: transparent; }
+.btn:hover { transform: translateY(-2px); }
+.btn:active { transform: translateY(0); }
+
+.hero__art { max-width: 440px; justify-self: end; animation: float 3s ease-in-out infinite; filter: drop-shadow(0 20px 60px rgba(46,168,255,.16)); }
+@keyframes float { 0%,100%{ transform: translateY(0) } 50% { transform: translateY(-10px) } }
+
+/* Parallax glow */
+.hero::before { content: ""; position: absolute; inset: 0; pointer-events: none; background:
+  radial-gradient(520px 200px at var(--gx,18%) 22%, rgba(46,168,255,.12), transparent 60%);
+  filter: blur(18px); z-index: -1; }
+
+/* 6) Games Grid */
+.games { padding-top: 10px; }
+.games__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 16px; }
+
+.card { position: relative; border-radius: 16px; overflow: hidden; background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02)); border: 1px solid rgba(255,255,255,.06); backdrop-filter: blur(6px); transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+.card:hover { transform: translateY(-4px); box-shadow: 0 18px 40px rgba(46,168,255,.16), 0 0 0 1px rgba(255,255,255,.08) inset; border-color: rgba(255,255,255,.14); }
+.card__media { height: 160px; object-fit: cover; width: 100%; }
+.card__body { display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; gap: 12px; }
+.card__text { display: grid; gap: 4px; min-width: 0; }
+.card__title-row { display:flex; align-items:center; justify-content:space-between; gap: 8px; }
+.card__title { font-weight: 800; letter-spacing: .2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.card__meta { color: var(--text-muted); font-size: .9rem; }
+.card__rating-badge { color: #0b0e13; background: var(--primary); border-radius: 999px; padding: 4px 8px; font-size: .8rem; font-weight: 800; white-space: nowrap; flex: 0 0 auto; }
+.card__btn { white-space: nowrap; }
+
+/* subtle shine on hover */
+.card::after { content: ""; position: absolute; inset: 0; background: radial-gradient(240px 120px at var(--mx,50%) var(--my,50%), rgba(255,255,255,.18), transparent 45%); opacity: 0; transition: opacity .25s ease; pointer-events: none; mix-blend-mode: screen; }
+.card:hover::after { opacity: 1; }
+
+/* 7) Contact */
+.contact { text-align: center; }
+
+/* 8) Progress Bar */
+.progress { position: fixed; top: 0; left: 0; height: 3px; width: 0; z-index: 1200; background: linear-gradient(90deg, var(--primary), #6bc2ff); box-shadow: 0 0 12px var(--ring); }
+
+/* 9) Reveal animations (IntersectionObserver) */
+.reveal { opacity: 0; transform: translateY(18px); transition: opacity .6s ease, transform .6s ease; }
+.reveal.in { opacity: 1; transform: translateY(0); }
+
+/* 10) Back-to-top */
+.to-top { position: fixed; right: 20px; bottom: 24px; opacity: 0; pointer-events: none; transform: translateY(10px); transition: transform .25s, opacity .25s; }
+.to-top.show { opacity: 1; pointer-events: auto; transform: translateY(0); }
+
+/* 11) Responsive */
+@media (max-width: 920px) {
+  .hero { grid-template-columns: 1fr; text-align: center; }
+  .hero__art { justify-self: center; max-width: 360px; }
+  .nav { display: none; }
+  .menu-toggle { display: inline-flex; }
+}
+
+/* 12) Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+
+/* 13) Toolbar for dynamic publisher */
+.toolbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-top: 8px; }
+.input { background: rgba(255,255,255,.06); color: var(--text); border: 1px solid rgba(255,255,255,.12); border-radius: 12px; padding: 10px 12px; min-width: min(560px, 100%); outline: none; transition: border-color .2s ease, box-shadow .2s ease; }
+.input:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(46,168,255,.22); }
+.hint { color: var(--text-muted); font-size: .9rem; }

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rayole Games</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="static/css/main.css" />
+</head>
+
+<body>
+  <!-- Progress bar -->
+  <div class="progress" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <nav class="appbar">
+    <div class="appbar__inner">
+      <div class="logo">Rayole<span style="color:white;">Games</span></div>
+      <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#games">Games</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+      </ul>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" aria-controls="mobile-nav" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="mobile-nav" id="mobile-nav" role="menu">
+        <a role="menuitem" href="#home">Home</a>
+        <a role="menuitem" href="#games">Games</a>
+        <a role="menuitem" href="#contact">Contact</a>
+        <a role="menuitem" href="./privacy-policy.html">Privacy Policy</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero container" id="home">
+    <div class="hero-content stack-4 reveal">
+      <p>🎮 Gaming Redefined</p>
+      <h1 class="hero__title">Play and <span>Explore</span> Worlds Beyond</h1>
+      <p class="hero__lead">Rayole Games brings immersive gameplay and stunning visuals to your fingertips. Join us on a journey beyond imagination.</p>
+      <div class="hero__buttons">
+        <a href="https://play.google.com/store/apps/developer?id=Rayole+Games" class="btn btn--primary" target="_blank" rel="noopener">Play Now</a>
+        <a href="#games" class="btn btn--ghost">Explore Games</a>
+      </div>
+    </div>
+    <div class="hero-image reveal">
+      <img src="./static/gamejoystick.svg" alt="Game Preview" width="100%" />
+    </div>
+  </section>
+
+  <!-- GAMES -->
+  <!-- <section id="games" class="section">
+    <div class="inner games-wrap">
+      <h2 class="section-title">Our Games</h2>
+      <p class="section-sub">Tap a card to jump straight to Google Play. Hover for a little ✨.</p>
+
+      
+      <canvas class="stars" id="stars" aria-hidden="true"></canvas>
+
+      <div class="games-grid" id="gamesGrid" aria-live="polite"></div>
+    </div>
+  </section> -->
+  <section id="games" class="games section">
+    <div class="container">
+      <h2 class="section-title reveal">Our Games</h2>
+      <p class="section-sub reveal">Hover cards for a subtle shine ✨</p>
+      <div class="games__grid" id="gamesList" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <h2 class="section-title reveal">Contact Us</h2>
+      <p class="section-sub reveal">Questions, collabs, or press inquiries? Reach out at <strong>hi@rayolegames.com</strong>.</p>
+    </div>
+  </section>
+
+  <footer style="background-color:var(--bg);color:#c9d1d9;padding:40px 20px;text-align:center">
+    <div style="max-width:1000px;margin:auto">
+      <h3 style="color:var(--primary);margin-bottom:10px">Rayole Games</h3>
+      <p style="margin-bottom:20px">Level up your world. Join the future of gaming.</p>
+      <div style="margin-bottom:20px">
+        <a href="#" style="margin:0 10px;color:#c9d1d9;text-decoration:none">Facebook</a>
+        <a href="#" style="margin:0 10px;color:#c9d1d9;text-decoration:none">Twitter</a>
+        <a href="#" style="margin:0 10px;color:#c9d1d9;text-decoration:none">Discord</a>
+        <a href="#" style="margin:0 10px;color:#c9d1d9;text-decoration:none">YouTube</a>
+      </div>
+      <p style="font-size:.9rem">&copy; 2025 Rayole Games. All rights reserved.</p>
+    </div>
+  </footer>
+  <button class="btn btn--primary to-top" aria-label="Back to top" style="position:fixed;right:20px;bottom:24px;">↑ Top</button>
+
+  <script src="static/js/games.js" defer></script>
+  <script src="static/js/fetcher.js" defer></script>
+  <script src="static/js/main.js" defer></script>
+</body>
+
+</html>
