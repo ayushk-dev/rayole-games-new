@@ -59,6 +59,13 @@ RAYOLE.GAMES = [
     rating: "4.8 ★",
     img: "https://play-lh.googleusercontent.com/sYcZtYMvI085Lr9bjkefstVVid7NlZofnU5dwzxsV_4aIuy6EFooXrOQ2d8b3ul_QMb4xm26hhNIHvcOfi_Uqxk=w832-h470-rw",
     url: "https://play.google.com/store/apps/details?id=com.rayole.games.dungeon.escape"
+  },
+  {
+    title: "Basket Shot",
+    publisher: "Rayole Games",
+    rating: "4.8 ★",
+    img: "https://play-lh.googleusercontent.com/lQVUsfaR0Hye3xapGwaisCUs-AAOUelDy0u1Qs4iPTFLSBew3dXsxPxQ360LDRh10UyYcW2gfQdzbgKmJWcv=w832-h470-rw",
+    url: "https://play.google.com/store/apps/details?id=com.rayole.games.basket.shot"
   }
 ];
 
