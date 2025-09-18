@@ -3,12 +3,6 @@
 
 window.RAYOLE = window.RAYOLE || {};
 
-// Hardcoded list of publisher URLs (edit here)
-RAYOLE.PUBLISHERS = [
-  'https://play.google.com/store/apps/developer?id=Rayole+Games',
-  'https://play.google.com/store/apps/developer?id=Rayole+Software'
-];
-
 RAYOLE.GAMES = [
   {
     title: "Match Play 3D",

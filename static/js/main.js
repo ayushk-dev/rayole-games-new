@@ -100,31 +100,12 @@ function initSmoothAnchors() {
   });
 }
 
-// Auto-load games by hardcoded publishers
-async function loadFromPublishers() {
-  const urls = (window.RAYOLE?.PUBLISHERS || []).filter(Boolean);
-  if (!urls.length) {
-    if (window.RAYOLE?.populateGames) window.RAYOLE.populateGames(window.RAYOLE.GAMES, '#gamesList');
-    return;
-  }
-  try {
-    const games = await (window.RAYOLE.fetchFromPublishers
-      ? window.RAYOLE.fetchFromPublishers(urls)
-      : Promise.all(urls.map(u => window.RAYOLE.fetchFromPublisher(u))).then(all => all.flat()));
-    console.log("NOW GAMES ARE HERE ---> ", games);
-    
-    window.RAYOLE.clearGames('#gamesList');
-    if (games.length) {
-      window.RAYOLE.populateGames(games, '#gamesList');
-    } else {
-      window.RAYOLE.populateGames(window.RAYOLE.GAMES, '#gamesList');
-    }
-    initReveal();
-  } catch (e) {
-    window.RAYOLE.clearGames('#gamesList');
-    window.RAYOLE.populateGames(window.RAYOLE.GAMES, '#gamesList');
-    initReveal();
-  }
+// Populate games list from static data
+function loadGames() {
+  if (!window.RAYOLE?.populateGames) return;
+  window.RAYOLE.clearGames('#gamesList');
+  window.RAYOLE.populateGames(window.RAYOLE.GAMES, '#gamesList');
+  initReveal();
 }
 
 // Bootstrap
@@ -135,6 +116,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initHeroGlow();
   initToTop();
   initSmoothAnchors();
-  // Load from publishers (falls back to static list if needed)
-  loadFromPublishers();
+  // Populate with static game data
+  loadGames();
 });
