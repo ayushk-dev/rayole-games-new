@@ -20,14 +20,14 @@ RAYOLE.GAMES = [
   {
     title: "Knife Ninja",
     publisher: "Rayole Games",
-    rating: "4.4 ★",
+    rating: "4.6 ★",
     img: "https://play-lh.googleusercontent.com/Q-Qlovsp69qoA2NZeB_0pSq2iWo-eV4RRM7Bs6C7PsedO2gj7hHcEzJy1Mz5WCGRJw=w832-h470-rw",
     url: "https://play.google.com/store/apps/details?id=com.rayole.games.knife.ninja"
   },
   {
     title: "Aqua Blast",
     publisher: "Rayole Games",
-    rating: "3.7 ★",
+    rating: "4.7 ★",
     img: "https://play-lh.googleusercontent.com/8ZdYWnewThrhWdWYo4vo7fXX21E56F-lZvdjrCIHisc2NqQBfK8B2JB7CJTcEABxEJXJeEF782qLo9PZPNY=w832-h470-rw",
     url: "https://play.google.com/store/apps/details?id=com.rayole.games.aqua.blast"
   },
@@ -41,9 +41,30 @@ RAYOLE.GAMES = [
   {
     title: "Tower Challenge",
     publisher: "Rayole Games",
-    rating: "4.6 ★",
+    rating: "4.7 ★",
     img: "https://play-lh.googleusercontent.com/agtZYrxWhOoqaZKb5Ts_JkxGO_0CX-spH5uE3lBHSLguirzGbSeqesonoHI__e84ayacY2dk4xQJNHc8pAvZvQ=w832-h470-rw",
     url: "https://play.google.com/store/apps/details?id=com.rayole.games.tower.challenge"
+  },
+  {
+    title: "Sort Master",
+    publisher: "Rayole Games",
+    rating: "4.8 ★",
+    img: "https://play-lh.googleusercontent.com/yx6xqW9hE3GzvqKN1U1dqi3_kZF0bCz8LT5IwvPd7CkbD6bPe7Ic8DAM68f7z1SUooA8WgvZsji7-82Ap4c-=w832-h470-rw",
+    url: "https://play.google.com/store/apps/details?id=com.rayole.games.sort.master"
+  },
+  {
+    title: "Bouncy Ball",
+    publisher: "Rayole Games",
+    rating: "4.7 ★",
+    img: "https://play-lh.googleusercontent.com/EoMchecbVWg_9dlA-dsDrFgTidRZmpHcpRVPxZvqZ7YOoLaRhbnHzeVOhiGQSmeQnpCOUGXTuvy4OZEgtykN-nc=w832-h470-rw",
+    url: "https://play.google.com/store/apps/details?id=com.rayole.games.bouncy.ball"
+  },
+  {
+    title: "Dungeon Escape",
+    publisher: "Rayole Games",
+    rating: "4.8 ★",
+    img: "https://play-lh.googleusercontent.com/sYcZtYMvI085Lr9bjkefstVVid7NlZofnU5dwzxsV_4aIuy6EFooXrOQ2d8b3ul_QMb4xm26hhNIHvcOfi_Uqxk=w832-h470-rw",
+    url: "https://play.google.com/store/apps/details?id=com.rayole.games.dungeon.escape"
   }
 ];
 
