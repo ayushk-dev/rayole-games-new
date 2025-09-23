@@ -6,6 +6,7 @@ google.com, pub-7472973836135941, DIRECT, f08c47fec0942fa0
 google.com, pub-5875666101378227, DIRECT, f08c47fec0942fa0
 google.com, pub-1256328663942825, DIRECT, f08c47fec0942fa0
 google.com, pub-9970027530362939, DIRECT, f08c47fec0942fa0
+google.com, pub-2730203756148674, DIRECT, f08c47fec0942fa0
 
 #Streamlyn
 streamlyn.com, bsrvptr20344, DIRECT
