@@ -1,7 +1,5 @@
 # Google Ad Manager
-google.com, pub-6816319059660313, DIRECT, f08c47fec0942fa0
-google.com, pub-3289565976727647, DIRECT, f08c47fec0942fa0
-google.com, pub-1422318540564595, DIRECT, f08c47fec0942fa0
+google.com, pub-4919371673559105, DIRECT, f08c47fec0942fa0
 
 
 #Streamlyn
