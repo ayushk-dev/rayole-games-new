@@ -2,6 +2,7 @@
 google.com, pub-4919371673559105, DIRECT, f08c47fec0942fa0
 google.com, pub-5254931647679488, DIRECT, f08c47fec0942fa0
 google.com, pub-7947446337625884, DIRECT, f08c47fec0942fa0
+google.com, pub-9372549690373378, DIRECT, f08c47fec0942fa0
 
 #Streamlyn
 streamlyn.com, bsrvptr20344, DIRECT
