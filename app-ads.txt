@@ -1,12 +1,6 @@
 # Google Ad Manager
+google.com, pub-2075723765768239, DIRECT, f08c47fec0942fa0
 google.com, pub-1411787371838138, DIRECT, f08c47fec0942fa0
-google.com, pub-5254931647679488, DIRECT, f08c47fec0942fa0
-google.com, pub-7947446337625884, DIRECT, f08c47fec0942fa0
-google.com, pub-9372549690373378, DIRECT, f08c47fec0942fa0
-google.com, pub-7135788678200595, DIRECT, f08c47fec0942fa0
-google.com, pub-6924880604366137, DIRECT, f08c47fec0942fa0
-google.com, pub-3278414745242859, DIRECT, f08c47fec0942fa0
-
 
 #RTBDEMAND
 rtbdemand.com, 23311482260, DIRECT
