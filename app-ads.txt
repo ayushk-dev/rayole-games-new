@@ -2,6 +2,7 @@
 google.com, pub-2075723765768239, DIRECT, f08c47fec0942fa0
 google.com, pub-1411787371838138, DIRECT, f08c47fec0942fa0
 google.com, pub-2985460118396586, DIRECT, f08c47fec0942fa0
+google.com, pub-7135788678200595, DIRECT, f08c47fec0942fa0
 
 #STS
 google.com, pub-2881049672669412, DIRECT, f08c47fec0942fa0
