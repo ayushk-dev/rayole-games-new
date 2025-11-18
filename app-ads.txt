@@ -1,5 +1,6 @@
 # Google Ad Manager
 google.com, pub-4894437017907654, DIRECT, f08c47fec0942fa0
+google.com, pub-3749861985397722, DIRECT, f08c47fec0942fa0
 
 #STS
 google.com, pub-2881049672669412, DIRECT, f08c47fec0942fa0
@@ -17,7 +18,7 @@ pubmatic.com, 159855, RESELLER, 5d62403b186f2ace
 openx.com, 561447216, RESELLER, 6a698e2ec38604c6
 rubiconproject.com, 26884, RESELLER, 0bfd66d529a55807
 appnexus.com, 11924, RESELLER, f5ab79cb980f11d1
-152media.info, 152M21, RESELLER
+152media.info, 152M21, RESELLERgit add .
 openx.com, 539848768, RESELLER, 6a698e2ec38604c6 
 
 #Streamlyn
