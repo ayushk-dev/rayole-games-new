@@ -22,6 +22,8 @@ appnexus.com, 11924, RESELLER, f5ab79cb980f11d1
 openx.com, 539848768, RESELLER, 6a698e2ec38604c6 
 
 #Streamlyn
+headerbiddr.com, 312, DIRECT
+headerbiddr.com, 313, DIRECT
 tapmind.com, TMP10203, DIRECT
 headerbiddr.com, 310, DIRECT
 streamlyn.com, bsrvptr20344, DIRECT
