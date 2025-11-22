@@ -1,7 +1,4 @@
 # Google Ad Manager
-google.com, pub-4894437017907654, DIRECT, f08c47fec0942fa0
-google.com, pub-3749861985397722, DIRECT, f08c47fec0942fa0
-google.com, pub-5625321362709661, DIRECT, f08c47fec0942fa0
 
 #STS
 google.com, pub-2881049672669412, DIRECT, f08c47fec0942fa0
