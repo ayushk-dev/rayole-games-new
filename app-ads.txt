@@ -10,6 +10,15 @@ playstream.media, 3290, DIRECT
 google.com, pub-4586415728471297, DIRECT, f08c47fec0942fa0
 google.com, pub-4586415728471297, RESELLER, f08c47fec0942fa0
 
+# Myads360
+google.com, pub-2960293519697422, DIRECT, f08c47fec0942fa0
+myad360.com, 4692, DIRECT
+d-sail.com, ds0565, DIRECT
+onetag.com, 7f3b16e7fd55b5a, DIRECT
+gameadzone.com, 2053, DIRECT
+pubmatic.com, 158723, RESELLER, 5d62403b186f2ace
+d-sail.com, myad360_5240, DIRECT
+
 #STS
 google.com, pub-2881049672669412, DIRECT, f08c47fec0942fa0
 google.com, pub-1714061154748628, DIRECT, f08c47fec0942fa0
