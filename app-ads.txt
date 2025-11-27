@@ -1,6 +1,8 @@
 # Google Ad Manager
 google.com, pub-5386681437446122, DIRECT, f08c47fec0942fa0
 google.com, pub-3993060517361862, DIRECT, f08c47fec0942fa0
+google.com, pub-6152623027451786, DIRECT, f08c47fec0942fa0
+
 
 # Play Steam
 playstream.media, 3290, DIRECT
