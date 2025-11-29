@@ -51,9 +51,6 @@ smartadserver.com, 4038-OB, RESELLER, 060d053dcf45cbf3
 openx.com, 557740596, RESELLER, 6a698e2ec38604c6
 streamlyn.com, bsrvptr20356, DIRECT
 onetag.com, 75b1c310c3f34cb-OB, RESELLER
-headerbiddr.com, 310, DIRECT 
-headerbiddr.com, 312, DIRECT 
-headerbiddr.com, 313, DIRECT 
 google.com, pub-6254331789601537, RESELLER, f08c47fec0942fa0 #HBDR_Google
 lijit.com, 402977-eb, RESELLER, fafdf38b16bf6b2b
 rubiconproject.com, 24634, RESELLER, 0bfd66d529a55807
