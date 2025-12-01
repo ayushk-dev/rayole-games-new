@@ -1,5 +1,5 @@
 # Google Ad Manager
-google.com, pub-6152623027451786, DIRECT, f08c47fec0942fa0
+google.com, pub-8882374544694980, DIRECT, f08c47fec0942fa0
 google.com, pub-9929426302657473, DIRECT, f08c47fec0942fa0
 
 
