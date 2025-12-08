@@ -28,7 +28,6 @@ google.com, pub-2960293519697422, DIRECT, f08c47fec0942fa0
 myad360.com, 4692, DIRECT
 d-sail.com, ds0565, DIRECT
 onetag.com, 7f3b16e7fd55b5a, DIRECT
-gameadzone.com, 2053, DIRECT
 pubmatic.com, 158723, RESELLER, 5d62403b186f2ace
 d-sail.com, myad360_5240, DIRECT
 Cue7ven.com,783517,RESELLER
