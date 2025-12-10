@@ -1,10 +1,6 @@
 # Google Ad Manager
 google.com, pub-9676006352714243, DIRECT, f08c47fec0942fa0
-
-# Play Steam
-playstream.media, 3290, DIRECT
-google.com, pub-4586415728471297, DIRECT, f08c47fec0942fa0
-google.com, pub-4586415728471297, RESELLER, f08c47fec0942fa0
+google.com, pub-9021925553531630, DIRECT, f08c47fec0942fa0
 
 # Myads360
 google.com, pub-3715562101512710, RESELLER, f08c47fec0942fa0
