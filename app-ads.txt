@@ -4,6 +4,9 @@ google.com, pub-1499139178346082, DIRECT, f08c47fec0942fa0
 google.com, pub-9021925553531630, DIRECT, f08c47fec0942fa0
 
 
+#JoinAds
+google.com, pub-6604116930729583, RESELLER, f08c47fec0942fa0
+joinads.llc, be452f09-127c-4978-9add-4fb33397a1ef, DIRECT
 
 #STS
 google.com, pub-2881049672669412, DIRECT, f08c47fec0942fa0
