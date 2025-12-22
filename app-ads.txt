@@ -1,10 +1,6 @@
 # Google Ad Manager
-google.com, pub-7630688760222015, DIRECT, f08c47fec0942fa0
+google.com, pub-3802625178000525, DIRECT, f08c47fec0942fa0
 
-
-#JoinAds
-google.com, pub-6604116930729583, RESELLER, f08c47fec0942fa0
-joinads.llc, be452f09-127c-4978-9add-4fb33397a1ef, DIRECT
 
 #MyAd360
 myad360.com, 4692, DIRECT
@@ -42,13 +38,6 @@ thebrave.io, 1234746, RESELLER, c25b2154543746ac
 toponad.com, 16719c20554a4f, RESELLER, 1d49fe424a1a456d
 sharethrough.com, OAW69Fon, RESELLER, d53b998a7bd4ecd2
 
-#STS
-google.com, pub-2881049672669412, DIRECT, f08c47fec0942fa0
-google.com, pub-1714061154748628, DIRECT, f08c47fec0942fa0
-google.com, pub-8686615022940025, DIRECT, f08c47fec0942fa0
-google.com, pub-1714061154748628, RESELLER, f08c47fec0942fa0
-google.com, pub-8686615022940025, RESELLER, f08c47fec0942fa0
-google.com, pub-9939978032997315, DIRECT, f08c47fec0942fa0
 
 #RTBDEMAND
 rtbdemand.com, 23311482260, DIRECT
