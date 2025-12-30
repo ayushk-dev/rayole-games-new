@@ -1,5 +1,6 @@
 # Google Ad Manager
 google.com, pub-5743095989981006, DIRECT, f08c47fec0942fa0
+google.com, pub-4115216962262638, DIRECT, f08c47fec0942fa0
 
 #MyAd360
 myad360.com, 4692, DIRECT
