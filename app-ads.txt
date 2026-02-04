@@ -2462,3 +2462,6 @@ improvedigital.com, 2625, RESELLER
 playstream.media, 3290, DIRECT
 google.com, pub-4586415728471297, DIRECT, f08c47fec0942fa0
 google.com, pub-4586415728471297, RESELLER, f08c47fec0942fa0
+adsolut.in, 18162, DIRECT
+google.com, pub-8584156348842922, DIRECT, f08c47fec0942fa0
+google.com, pub-8584156348842922, RESELLER, f08c47fec0942fa0
