@@ -1,4 +1,5 @@
 # Google
+google.com, pub-5436693863684732, DIRECT, f08c47fec0942fa0
 
 #MyAd360
 myad360.com, 4692, DIRECT
