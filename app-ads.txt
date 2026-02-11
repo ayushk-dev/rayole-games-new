@@ -2552,3 +2552,6 @@ appnexus.com, 11924, RESELLER, f5ab79cb980f11d1
 openx.com, 539848768, RESELLER, 6a698e2ec38604c6 
 openx.com, 564281401, RESELLER, 6a698e2ec38604c6
 --------UndrAds End--------
+
+#otzzzz
+google.com, pub-9063486391387983, DIRECT, f08c47fec0942fa0
