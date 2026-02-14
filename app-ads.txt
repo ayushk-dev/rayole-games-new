@@ -1,3 +1,6 @@
+#Google
+google.com, pub-4767058382322213, DIRECT, f08c47fec0942fa0
+
 #MyAd360
 myad360.com, 4692, DIRECT
 google.com , pub-5413329544040947, RESELLER, f08c47fec0942fa0
