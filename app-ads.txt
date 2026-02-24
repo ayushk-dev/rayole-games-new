@@ -1,3 +1,7 @@
+playwire.com,1025731,DIRECT
+managerdomain=playwire.com
+ownerdomain=rayolegames.com
+
 #Google
 google.com, pub-3379969116950199, RESELLER, f08c47fec0942fa0
 
