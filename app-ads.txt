@@ -2480,3 +2480,5 @@ dauup.com, 34141, RESELLER
 thebrave.io, 1234746, RESELLER, c25b2154543746ac
 toponad.com, 16719c20554a4f, RESELLER, 1d49fe424a1a456d
 sharethrough.com, OAW69Fon, RESELLER, d53b998a7bd4ecd2
+
+google.com, pub-7272155800245406, DIRECT, f08c47fec0942fa0
