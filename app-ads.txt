@@ -1930,3 +1930,4 @@ sharethrough.com, OAW69Fon, RESELLER, d53b998a7bd4ecd2
 
 # Google
 google.com, pub-7272155800245406, DIRECT, f08c47fec0942fa0
+google.com, pub-5439605398410315, DIRECT, f08c47fec0942fa0
